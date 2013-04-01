@@ -1,3 +1,9 @@
+/*
+ * super-textfield
+ * 2013 Minori Yamashita <ympbyc@gmail.com>
+ * MIT License
+ */
+
 function super_textfield (opt) {
     var KEYCODE_ENTER = 13,
         KEYCODE_TAB   = 9,
