@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!--
+  Super Textfield
+  2013 Minori Yamashita <minori.yamashita@pilotz.jp>
+-->
+<head>
+  <meta charset="utf-8">
+  <title>Super Textfield</title>
+
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+  <script src="js/super-textfield.js"></script>
+  
+  <link rel="stylesheet" href="css/tf-style.css">
+</head>
+<body>
+  <div id="container">
+    <div id="logo"><img src="images/SuperTextfield.png" alt="flight log" /></div>
+
+    <div id="edit-mode-icons">
+      <div class=""><span class="sosa mode-icon">Ü</span>Your Name</span></div>
+      <div class="hidden"><span class="sosa mode-icon">Ġ</span>Years of Programming Experience</span></div>
+      <div class="hidden"><span class="sosa mode-icon">D</span>Your Favourite Programming Language</span></div>
+      <div class="hidden"><span class="sosa mode-icon">å</span>Send?</span></div>
+    </div>
+
+    <div id="editor-wrapper">
+    </div>
+
+    <div style="margin: 50px auto; width: 500px" id="tf-result"></div>
+
+    <script type="text/template" id="suggestion-template">
+    <div><%= it %></div>
+    </script>
+    <script type="text/template" id="task-log-template">
+      <td><%= project_name %></td>
+      <td><%= year %>/<%= month %>/<%= date %></td>
+      <td><%= hours %></td>
+    </script>
+
+  </div>
+
+  <script src="example/sample.js"></script>
+</body>
+</html>

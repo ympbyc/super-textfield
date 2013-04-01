@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'sosa';
+  src: url('../fonts/sosa-regular-webfont.woff') format('woff');
+}
+#container {
+  margin: 0 auto;
+  width: 90%;
+}
+#tf-editor {
+  margin: 0 auto;
+  border: 1px solid gray;
+  width: 500px;
+  padding: 2px;
+}
+#tf-input {
+  border: none;
+  outline: none;
+}
+.tf-item {
+  margin: 0 3px 0 3px;
+  padding: 2px;
+  border-radius: 3px;
+  background-color: #B2CF3E;
+}
+#tf-suggestion {
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid gray;
+  max-height: 300px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#tf-suggestion .act {
+  background-color: #6EB7DB;
+}
+#logo{
+  width:664px;
+  margin: 0 auto;
+}
+#edit-mode-icons {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.sosa {
+  font-family: 'sosa';
+}
+.mode-icon {
+  font-size: 48px;
+}
+.hidden {
+  display: none;
+}
+.gray {
+  color: #888;
+}
